@@ -1,0 +1,11 @@
+{
+    "name" : "com.yothuba.minis-loopback-plugin",
+    "version":"1.0.0",
+    "displayName" : "MinisLoopBackPlugin",
+    "description": "This plug-in adds MidiLoopBack functionality to Minis.",
+    "unity" : "2019.1",
+    "author": {
+        "name" : "Yothuba",
+        "email": "yothuba.10@gmail.com"
+    }
+}
