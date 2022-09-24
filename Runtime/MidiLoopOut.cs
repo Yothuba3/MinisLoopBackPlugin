@@ -46,6 +46,6 @@ public class MidiLoopOut : MonoBehaviour
         int note = int.Parse(Regex.Replace(noteName, @"[^0-9]", ""));
         var value = context.ReadValue<float>();
         _port?.midiOutPort?.SendNoteOn(channel, note, (int)value);
-        Debug.Log("device: " + context.control.device.displayName + " channel: " + channel + " note: " + note + " value: " + value);
+        Debug.Log("<color=red>device: " + context.control.device.displayName + "</color> channel: " + channel + " note: " + note + " value: " + value);
     }
 }
